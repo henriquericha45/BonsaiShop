@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    padding-right: 30px;
+}
