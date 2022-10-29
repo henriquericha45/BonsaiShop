@@ -7,10 +7,11 @@
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <nav>
         <ul>
-            <li><a href="#inicio">Início</a></li>
+            <li><a href="index.php">Início</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="cadastro.php">Cadastro</a></li>
+            <li><a href="#">Login</a></li>
         </ul>
     </nav>
     <label for="nav-toggle" class="nav-toggle-label">

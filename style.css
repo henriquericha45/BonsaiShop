@@ -28,9 +28,9 @@ body {
 }
 
 header {
+    top: 0;
     background: var(--header-background);
     text-align: center;
-    position: fixed;
     z-index: 999;
     width: 100%;
 }
@@ -176,3 +176,9 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: auto;
 }
+
+.teste {
+    color: pink;
+}
+
+
