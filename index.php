@@ -5,6 +5,7 @@
     </style>
 
 
-    <img class="imagem-bonsai" src="./images/capa-bonsai-menor.jpg">
+    <img id="inicio" class="imagem-bonsai" src="./images/capa-bonsai-menor.jpg">
 
-    <h1 class="teste">Teste</h1>
+    <div id="sobre" class="sobre">
+    </div>
