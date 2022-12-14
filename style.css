@@ -4,7 +4,7 @@
     --background: #333;
     --header-background: #141414;
     --menu-color: white;
-    --inicio-background: #51557E;
+    --inicio-background: #545560;
     --box-contariner-background: #424566;
 }
 
@@ -182,4 +182,58 @@ nav a:hover {
     height: 100vh;
 }
 
+.menu-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
+.form-cadastro {
+    border: white 1px solid;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-cadastro {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .botao-cadastro:hover {
+    opacity:1;
+  }
+
+  .campo[type=text], .campo[type=password], .campo[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .campo[type=text]:focus, .campo[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  label {
+    color: white;
+  }
+
+  .titulo-cadastro {
+    color: white;
+  }
