@@ -8,7 +8,9 @@
     --box-contariner-background: #424566;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -78,11 +80,11 @@ nav a:hover {
     color: black;
 }
 
-.nav-toggle:checked ~ nav {
-    transform: scale(1,1);
+.nav-toggle:checked~nav {
+    transform: scale(1, 1);
 }
 
-.nav-toggle:checked ~ nav a {
+.nav-toggle:checked~nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
@@ -91,7 +93,7 @@ nav a:hover {
     position: absolute !important;
     top: -9999px !important;
     left: -9999px !important;
-  }
+}
 
 .nav-toggle-label {
     position: absolute;
@@ -186,15 +188,24 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin: 3% 0 0 0;
 }
 
 .form-cadastro {
     border: white 1px solid;
     width: 50%;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    padding: 0 30px 30px 30px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #484848;
+}
+
+.form-cadastro>h1 {
+    text-align: center;
 }
 
 .botao-cadastro {
@@ -206,34 +217,43 @@ nav a:hover {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
-  }
+}
 
-  .botao-cadastro:hover {
-    opacity:1;
-  }
+.botao-cadastro:hover {
+    opacity: 1;
+}
 
-  .campo[type=text], .campo[type=password], .campo[type=email] {
+.campo[type=text],
+.campo[type=password],
+.campo[type=email] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
     background: #f1f1f1;
-  }
-  
-  .campo[type=text]:focus, .campo[type=password]:focus {
+    border-radius: 5px;
+    border: black 2px solid;
+}
+
+.campo[type=text]:focus,
+.campo[type=password]:focus {
     background-color: #ddd;
     outline: none;
-  }
+}
 
-  hr {
+hr {
     width: 100%;
-  }
+}
 
-  label {
+label {
     color: white;
-  }
+}
 
-  .titulo-cadastro {
+.titulo-cadastro {
     color: white;
-  }
+}
+
+.error {
+    color: #ff4a4a;
+}
